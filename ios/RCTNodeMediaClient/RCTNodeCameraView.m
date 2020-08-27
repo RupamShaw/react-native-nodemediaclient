@@ -46,7 +46,8 @@
 
 - (void)setZoomScale:(NSInteger)zoomScale {
   [_np setZoomScale:zoomScale];
-  
+}
+
 -(void)setAutopreview:(BOOL)autopreview {
   _autopreview = autopreview;
   if(_camera && _video && autopreview) {
