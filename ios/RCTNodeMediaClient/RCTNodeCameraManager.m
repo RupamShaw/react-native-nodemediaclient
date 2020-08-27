@@ -29,6 +29,7 @@ RCT_EXPORT_VIEW_PROPERTY(video, NSDictionary);
 RCT_EXPORT_VIEW_PROPERTY(denoise, BOOL);
 RCT_EXPORT_VIEW_PROPERTY(smoothSkinLevel, int);
 RCT_EXPORT_VIEW_PROPERTY(cryptoKey, NSString)
+RCT_EXPORT_VIEW_PROPERTY(zoomScale, int);  
 RCT_EXPORT_VIEW_PROPERTY(onChange, RCTBubblingEventBlock)
 
 
