@@ -20,7 +20,6 @@
 @property (nonatomic) NSInteger smoothSkinLevel;
 @property (strong, nonatomic) NSString *cryptoKey;
 @property (nonatomic, copy) RCTBubblingEventBlock onChange;
-@property (nonatomic) NSInteger zoomScale;
 @property (nonatomic) BOOL flashEnable;
 
 -(int)startprev;
